@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+* {
+    padding: 10;
+    margin: 10;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    padding: 26px;
+}
+
+.card {
+    background-color: rgb(236, 206, 206);
+    width: 249px;
+    height: 544px;
+    border-radius: 7px;
+    margin: 4px;
+}
+
+.image {
+    padding: 11px;
+}
+
+.image img {
+    border-radius: 7px;
+}
+
+.block {
+    padding: 0 34px 0 14px;
+}
+
+.block span {
+    border: 1px solid rgb(189, 100, 100);
+    padding: 0 4px;
+    border-radius: 10px;
+}
+
+h2 {
+    padding: 0 10px 0 10px;
+    color: brown;
+
+}
+
+p {
+    padding: 0px 10px 0 10px;
+    font-size: 12px;
+    font-family: "Playwrite NZ", cursive;
+
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    border-radius: 25px;
+    padding: 0px 7px;
+    background-color: rgb(174, 231, 212);
+    border: 0;
+    margin-top: 9px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.button button:hover {
+    color: rgb(234, 4, 4);
+}
